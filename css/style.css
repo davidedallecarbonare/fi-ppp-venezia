@@ -12,6 +12,10 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+div.ui-accordion h3 {
+ margin-top: 0px;
+}
+
 	*
 	{
 		-moz-box-sizing: border-box;
@@ -30,7 +34,7 @@
 	body
 	{
 		font-family: 'Open Sans', sans-serif;
-		font-size: 12pt;
+		font-size: 11pt;
 		color: #696969;
 		font-weight: 300;
 		background: url('images/bgshadow.png') top left no-repeat;
@@ -238,6 +242,7 @@
 		header .byline
 		{
 			margin: 0;
+			font-size: 80%;
 		}
 
 	footer
@@ -832,3 +837,17 @@
 		{
 			color: inherit;
 		}
+
+.speaker {
+    display: block;
+    font-weight:bold;
+    padding: 5px;
+    border: 1px solid #2694e8;
+    background: #3baae3;
+    border-radius: 6px;
+-moz-transition: background-color .25s ease-in-out;
+-webkit-transition: background-color .25s ease-in-out;
+-o-transition: background-color .25s ease-in-out;
+-ms-transition: background-color .25s ease-in-out;
+transition: background-color .25s ease-in-out;
+}

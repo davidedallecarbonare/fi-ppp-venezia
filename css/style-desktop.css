@@ -109,6 +109,7 @@
 		.box-feature p
 		{
 			margin: 0;
+			line-height: 1.6em;
 		}
 
 		.box-feature .image
@@ -147,7 +148,7 @@
 
 	#header-wrapper
 	{
-		padding: 4.5em 0 1em 0;
+		padding: 1.5em 0 1em 0;
 	}
 	
 	#features-wrapper
@@ -186,7 +187,6 @@
 		{
 			line-height: 4.5em;
 			letter-spacing: 0.025em;
-			font-size: 0.9em;
 		}
 
 /*********************************************************************************/
@@ -215,6 +215,7 @@
 				#nav ul li a
 				{
 					font-weight: 800;
+					font-size: 120%;
 					letter-spacing: 0.025em;
 					color: #696969;
 					text-decoration: none;
@@ -252,7 +253,7 @@
 
 	#banner
 	{
-		padding: 6.25% 6.25% 3.5% 6.25%;
+		padding: 2.25% 5.25% 1.5% 5.25%;
 	}
 
 		#banner h2
@@ -282,14 +283,15 @@
 				margin-top: -0.5em;
 			}
 
-		#banner .button.alt
+		/* #banner .button.alt
 		{
 			margin-bottom: 0;
-		}
+		} */
 		
 		#banner ul
 		{
 			margin-left: 2em;
+            margin-bottom: 0em;
 		}
 
 /*********************************************************************************/
@@ -305,6 +307,11 @@
 			margin-top: 2.25em;
 		}
 
+
+#content .ui-accordion h3
+		{			
+			margin-top: 0em;
+		}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
