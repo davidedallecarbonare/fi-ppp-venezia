@@ -840,7 +840,6 @@ div.ui-accordion h3 {
 
 .speaker {
     display: block;
-    font-weight:bold;
     padding: 5px;
     border: 1px solid #2694e8;
     background: #3baae3;
@@ -851,3 +850,14 @@ div.ui-accordion h3 {
 -ms-transition: background-color .25s ease-in-out;
 transition: background-color .25s ease-in-out;
 }
+
+.speaker-name {
+    font-weight:bold;
+}
+
+.image-speaker
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 5px 0;
+	}
